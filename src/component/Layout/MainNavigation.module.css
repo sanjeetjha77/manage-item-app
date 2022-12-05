@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding:1.3rem;
+}
+
+.brandLogo {
+    margin-right:auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navMenu {
+    display:flex;
+    flex-direction: row;
+}
+
+.navMenu li {
+    padding:0 1rem;
+}
+
+.navMenu li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
