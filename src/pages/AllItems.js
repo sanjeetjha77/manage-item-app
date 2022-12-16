@@ -33,7 +33,7 @@ const AllItems = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch('https://manage-item-default-rtdb.firebaseio.com/items.json')
+    fetch('https://manage-item-new-default-rtdb.firebaseio.com/items.json')
     .then((response) => {
       return response.json();
     })

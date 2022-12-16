@@ -7,7 +7,7 @@ const NewItem = () => {
   const history = useHistory();
 
 const addItemHandler = (itemData) => {
-  fetch('https://manage-item-default-rtdb.firebaseio.com/items.json', 
+  fetch('https://manage-item-new-default-rtdb.firebaseio.com/items.json', 
   {
     method: 'POST',
     body : JSON.stringify(itemData),
